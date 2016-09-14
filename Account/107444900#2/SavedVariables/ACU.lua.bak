@@ -1,0 +1,10 @@
+
+AddonCpuUsageDB = {
+	["profileKeys"] = {
+		["Skasch - Elune"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

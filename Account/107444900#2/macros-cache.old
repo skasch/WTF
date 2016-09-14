@@ -1,0 +1,161 @@
+VER 3 000000000000001F "Archimonde Targe" "INV_SWORD_04"
+/cleartarget
+/tar Infernal
+/stopmacro [exists,nodead]
+/tar doomfire
+/tar source
+/tar felb
+/stopmacro [exists,nodead]
+/tar hellfire death
+/stopmacro [exists,nodead]
+/tar archimonde
+END
+VER 3 0000000000000015 "Berserk" "ABILITY_DRUID_BERSERK"
+#showtooltip Berserk
+/cast Berserk
+/cast Incarnation: King of the Jungle
+END
+VER 3 0000000000000021 "Distance" "SPELL_HOLY_ELUNESGRACE"
+/console cameraDistanceMaxFactor 2.6
+END
+VER 3 000000000000001D "ExtraButton" "ABILITY_DRUID_CATFORMATTACK"
+/click ExtraActionButton1
+END
+VER 3 0000000000000007 "Fan of Knives" "ABILITY_ROGUE_FANOFKNIVES"
+#showtooltip Fan of Knives
+/startattack
+/cast Fan of Knives
+END
+VER 3 0000000000000013 "Genesis Mouseove" "SPELL_NATURE_PRESERVATION"
+#showtooltip Genesis
+/use [@mouseover,help,nodead][help,nodead][@player]  Genesis
+END
+VER 3 000000000000001E "Healing Tonic" "INV_MISC_QUESTIONMARK"
+#showtooltip Healing Tonic
+/use Healthstone
+/use Healing Tonic
+END
+VER 3 0000000000000003 "Hemorrhage" "SPELL_SHADOW_LIFEDRAIN"
+#showtooltip Hemorrhage
+/startattack
+/cast Hemorrhage
+END
+VER 3 0000000000000008 "HT Mouseover" "SPELL_NATURE_HEALINGTOUCH"
+#showtooltip Healing Touch
+/use [@mouseover,help,nodead][@rarget,help,nodead][@targettarger,help,nodead][@player] Healing Touch
+END
+VER 3 0000000000000010 "IB Mouseover" "SPELL_DRUID_IRONBARK"
+#showtooltip Ironbark
+/use [@mouseover,help,nodead][help,nodead][@player]  Ironbark
+END
+VER 3 000000000000000C "LB Mouseover" "INV_MISC_HERB_FELBLOSSOM"
+#showtooltip Lifebloom
+/use [@mouseover,help,nodead][help,nodead][@player]  Lifebloom
+END
+VER 3 0000000000000020 "Mannoroth Target" "INV_SWORD_04"
+/cleartarget
+/tar Doom Lord
+/stopmacro [exists,nodead]
+/tar Mannoroth
+END
+VER 3 000000000000001A "MO Cyclone" "SPELL_NATURE_EARTHBIND"
+#showtooltip Genesis
+/use [@mouseover,nodead,harm][nodead,harm] Cyclone
+END
+VER 3 000000000000001B "MO ER" "SPELL_NATURE_STRANGLEVINES"
+#showtooltip Entangling Roots
+/use [@mouseover,nodead,harm][nodead,harm] Entangling Roots
+END
+VER 3 000000000000001C "MO FF" "SPELL_NATURE_FAERIEFIRE"
+#showtooltip Faerie Fire
+/use [@mouseover,nodead,harm][nodead,harm] Faerie Fire
+END
+VER 3 0000000000000017 "Mouseover FoN" "ABILITY_DRUID_FORCEOFNATURE"
+#showtooltip Force of Nature
+/use [@mouseover,help,nodead][help,nodead][@player]  Force of Nature
+END
+VER 3 000000000000000F "NC Mouseover" "ABILITY_SHAMAN_CLEANSESPIRIT"
+#showtooltip Nature's Cure
+/use [@mouseover,help,nodead][help,nodead][@player]  Nature's Cure
+END
+VER 3 0000000000000025 "ObliterAGE" "GARRISON_BUILDING_LUMBERMILL"
+/run for b=0,NUM_BAG_SLOTS do for s= 1, 32, 1 do local name = GetContainerItemLink(b,s); if name and string.find(name,"Ancient Healing Potion") then PickupContainerItem(b,s) UseContainerItem(b,s) end end end
+END
+VER 3 0000000000000014 "RC Mouseover" "SPELL_HOLY_REMOVECURSE"
+#showtooltip Remove Corruption
+/use [@mouseover,help,nodead][help,nodead][@player] Remove Corruption
+END
+VER 3 000000000000000E "Rebirth Mouseove" "SPELL_NATURE_REINCARNATION"
+#showtooltip Rebirth
+/use [@mouseover,help][help] Rebirth
+END
+VER 3 0000000000000012 "Revive" "ABILITY_DRUID_LUNARGUIDANCE"
+#showtooltip Revive
+/use [@mouseover,help][help] Revive
+END
+VER 3 000000000000000A "RG Mouseover" "SPELL_NATURE_RESISTNATURE"
+#showtooltip Regrowth
+/use [@mouseover,help,nodead][help,nodead][@player] Regrowth
+END
+VER 3 000000000000000B "RJ Mouseover" "SPELL_NATURE_REJUVENATION"
+#showtooltip Rejuvenation
+/use [@mouseover,help,nodead][help,nodead][@player]  Rejuvenation
+END
+VER 3 0000000000000005 "Shadow Blades" "ABILITY_ROGUE_SHADOWDANCE"
+#showtooltip Shadow Blades
+/cast Berserking
+/cast Shadow Reflection
+/cast Shadow Dance
+END
+VER 3 0000000000000023 "Shadow Dance" "ABILITY_ROGUE_SHADOWDANCE"
+#tooltip Shadow Dance
+/cast Shadow Dance
+/cast Shadowstrike
+END
+VER 3 0000000000000022 "Shadow Dance" "INV_MISC_QUESTIONMARK"
+#tooltip Shadow Dance
+END
+VER 3 0000000000000004 "Spec swap" "ABILITY_SEAL"
+/stopmacro [combat]
+/equipset [spec:1] Secondary; Primary
+/usetalents [spec:1] 2; 1
+END
+VER 3 000000000000000D "Swiftmend" "INV_RELICS_IDOLOFREJUVENATION"
+#showtooltip Swiftmend
+/use [@mouseover,help,nodead][help,nodead][@player]  Swiftmend
+END
+VER 3 0000000000000019 "Target Last Enem" "132393"
+/targetlastenemy
+/startattack
+END
+VER 3 0000000000000018 "Target Next Enem" "132394"
+/targetenemy
+/startattack
+END
+VER 3 0000000000000016 "Tiger's Fury" "ABILITY_MOUNT_JUNGLETIGER"
+#showtooltip Tiger's Fury
+/use 13
+/cast Tiger's Fury
+END
+VER 3 0000000000000001 "TotT" "ABILITY_ROGUE_TRICKSOFTHETRADE"
+#showtooltip Trick of the trade
+/cast [@focus] Tricks of the trade
+END
+VER 3 0000000000000024 "Trinket+CotD" "INV_SWORD_04"
+/use Tirathon's Betrayal
+/cast Curse of the Dreadblades
+END
+VER 3 0000000000000006 "Vendetta" "ABILITY_ROGUE_DEADLINESS"
+#showtooltip Vendetta
+/cast Berserking
+/cast Shadow Reflection
+/cast Vendetta
+END
+VER 3 0000000000000011 "WG Mouseover" "ABILITY_DRUID_FLOURISH"
+#showtooltip Wild Growth
+/use [@mouseover,help,nodead][help,nodead][@player]  Wild Growth
+END
+VER 3 0000000000000009 "WM Mousever" "DRUID_ABILITY_WILDMUSHROOM_A"
+#showtooltip Wild Mushroom
+/use [@mouseover,help,nodead][help,nodead][@player]  Wild Mushroom
+END

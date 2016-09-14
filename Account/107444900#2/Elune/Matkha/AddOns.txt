@@ -1,0 +1,5 @@
+Gatherer: enabled
+SlideBar: enabled
+Stubby: enabled
+!Swatter: enabled
+Bagnon: disabled

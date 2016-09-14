@@ -1,0 +1,10 @@
+
+HandyNotes_LegionTreasuresDB = {
+	["profileKeys"] = {
+		["Marnae - Elune"] = "Marnae - Elune",
+	},
+	["profiles"] = {
+		["Marnae - Elune"] = {
+		},
+	},
+}

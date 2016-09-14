@@ -1,0 +1,6 @@
+Recount: disabled
+Skada: enabled
+MaxCam: disabled
+BugSack: enabled
+!BugGrabber: enabled
+Details: disabled

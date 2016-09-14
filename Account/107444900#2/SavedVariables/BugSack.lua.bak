@@ -1,0 +1,10 @@
+
+BugSackDB = {
+	["fontSize"] = "GameFontHighlight",
+	["auto"] = true,
+	["mute"] = false,
+	["chatframe"] = false,
+	["soundMedia"] = "BugSack: Fatality",
+}
+BugSackLDBIconDB = {
+}

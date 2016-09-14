@@ -1,0 +1,220 @@
+
+WoWDBProfilerData = {
+	["profileKeys"] = {
+		["Skasch - Elune"] = "Default",
+	},
+	["region"] = "EU",
+	["version"] = 18,
+	["build_num"] = 22566,
+	["global"] = {
+		["quests"] = {
+			[40072] = {
+				["can_share"] = true,
+			},
+			[39330] = {
+				["can_share"] = true,
+			},
+			[39863] = {
+				["can_share"] = true,
+			},
+			[39781] = {
+				["can_share"] = true,
+			},
+			[41762] = {
+				["can_share"] = true,
+			},
+			[38337] = {
+			},
+			[40567] = {
+				["can_share"] = true,
+			},
+			[40168] = {
+			},
+			[38286] = {
+				["can_share"] = true,
+			},
+			[40011] = {
+				["can_share"] = true,
+			},
+		},
+		["items"] = {
+			[130296] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 110,
+				["durability"] = 40,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[128872] = {
+				["instance_difficulty_id"] = 9,
+				["upgrade_value"] = 692,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[118365] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[121684] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 109,
+				["durability"] = 55,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[130275] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 109,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[121659] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 108,
+				["durability"] = 55,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[34498] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[121667] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 109,
+				["durability"] = 100,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[138815] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[141652] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[121673] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 110,
+				["durability"] = 100,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[141591] = {
+				["instance_difficulty_id"] = 1,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[121804] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[140192] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[128329] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[134552] = {
+				["instance_difficulty_id"] = 0,
+				["upgrade_value"] = 692,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[129993] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["durability"] = 140,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[128476] = {
+				["instance_difficulty_id"] = 9,
+				["upgrade_value"] = 67,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[110560] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[130309] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 109,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[121724] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 108,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[130127] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 107,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[128870] = {
+				["instance_difficulty_id"] = 9,
+				["upgrade_value"] = 228,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[121730] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 109,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[132883] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[132112] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 110,
+				["durability"] = 100,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[139742] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 0,
+				["durability"] = 85,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+			[121660] = {
+				["instance_difficulty_id"] = 11,
+				["upgrade_value"] = 109,
+				["durability"] = 40,
+				["unique_id"] = 0,
+				["suffix_id"] = 0,
+			},
+		},
+	},
+}

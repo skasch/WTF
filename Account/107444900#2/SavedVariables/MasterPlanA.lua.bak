@@ -1,0 +1,9 @@
+
+MasterPlanAG = {
+	["Elune"] = {
+		["Skasch"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Alliance",
+		},
+	},
+}

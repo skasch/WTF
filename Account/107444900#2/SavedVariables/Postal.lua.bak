@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Skasch|Elune|Alliance|96|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Skasch - Elune"] = "Skasch - Elune",
+	},
+	["profiles"] = {
+		["Skasch - Elune"] = {
+		},
+	},
+}

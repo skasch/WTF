@@ -1,0 +1,14 @@
+Gatherer: disabled
+SlideBar: enabled
+Stubby: enabled
+!Swatter: enabled
+Bagnon: enabled
+AddOnSkins: enabled
+Auc-Advanced: disabled
+Informant: disabled
+Enchantrix: disabled
+Enchantrix-Barker: disabled
+ElvUI_SLE: enabled
+DBM-GUI: enabled
+DBM-Core: disabled
+DBM-StatusBarTimers: disabled

@@ -1,0 +1,9 @@
+DBM-GUI: enabled
+DBM-Core: disabled
+DBM-StatusBarTimers: disabled
+Recount: disabled
+Skada: enabled
+MaxCam: disabled
+BugSack: enabled
+!BugGrabber: enabled
+Details: disabled

@@ -1,0 +1,92 @@
+
+AdiBagsDB = {
+	["namespaces"] = {
+		["ItemLevel"] = {
+		},
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+					["overrides"] = {
+						[116053] = "Trade Goods#Botanist",
+						[109124] = "Trade Goods#Botanist",
+						[109126] = "Trade Goods#Botanist",
+						[109127] = "Trade Goods#Botanist",
+						[109128] = "Trade Goods#Botanist",
+						[109129] = "Trade Goods#Botanist",
+						[111245] = "Trade Goods#Enchanting",
+						[109693] = "Trade Goods#Enchanting",
+						[115504] = "Trade Goods#Enchanting",
+						[109118] = "Trade Goods#Mining",
+						[109119] = "Trade Goods#Mining",
+						[110560] = "New#Quick Access",
+						[115508] = "Trade Goods#Mining",
+						[6948] = "New#Quick Access",
+					},
+				},
+			},
+		},
+		["ItemCategory"] = {
+		},
+		["NewItem"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["Equipment"] = {
+		},
+		["ItemSets"] = {
+		},
+		["CurrencyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["text"] = {
+						["name"] = "Univers",
+						["size"] = 11,
+					},
+				},
+			},
+		},
+		["DataSource"] = {
+		},
+		["Junk"] = {
+			["profiles"] = {
+				["Default"] = {
+					["exclude"] = {
+						[110560] = true,
+					},
+				},
+			},
+		},
+		["MoneyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["small"] = true,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Skasch - Elune"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["virtualStacks"] = {
+				["stackable"] = true,
+				["incomplete"] = true,
+			},
+			["scale"] = 1,
+			["maxHeight"] = 0.68,
+			["skin"] = {
+				["borderWidth"] = 1,
+				["insets"] = 0,
+			},
+			["bagFont"] = {
+				["name"] = "Univers",
+			},
+			["sectionFont"] = {
+				["name"] = "Univers",
+			},
+			["compactLayout"] = true,
+		},
+	},
+}

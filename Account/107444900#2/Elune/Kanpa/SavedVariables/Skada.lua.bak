@@ -1,0 +1,475 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 16,
+		["interrupts"] = 0,
+		["damage"] = 126327,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "DRUID",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["Rake"] = {
+						["name"] = "Rake",
+						["active"] = 0,
+						["id"] = 155722,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 10,
+					},
+					["Shattered Bleed"] = {
+						["name"] = "Shattered Bleed",
+						["active"] = 0,
+						["id"] = 159238,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 3,
+					},
+					["Infected Wounds"] = {
+						["name"] = "Infected Wounds",
+						["active"] = 0,
+						["id"] = 58180,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 10,
+					},
+					["Spirit of the Warlords"] = {
+						["name"] = "Spirit of the Warlords",
+						["active"] = 0,
+						["id"] = 162915,
+						["auratype"] = "BUFF",
+						["uptime"] = 18,
+					},
+					["Archmage's Incandescence"] = {
+						["name"] = "Archmage's Incandescence",
+						["active"] = 0,
+						["id"] = 177161,
+						["auratype"] = "BUFF",
+						["uptime"] = 11,
+					},
+					["Travel Form"] = {
+						["name"] = "Travel Form",
+						["active"] = 2,
+						["id"] = 165961,
+						["auratype"] = "BUFF",
+						["uptime"] = 54,
+					},
+				},
+				["role"] = "NONE",
+				["time"] = 28,
+				["interrupts"] = 0,
+				["power"] = {
+					[4] = {
+						["amount"] = 6,
+						["spells"] = {
+							[5221] = 1,
+							[16953] = 2,
+							[1822] = 3,
+						},
+					},
+				},
+				["damage"] = 126327,
+				["damagespells"] = {
+					["Shred"] = {
+						["min"] = 12487,
+						["hit"] = 1,
+						["totalhits"] = 1,
+						["id"] = 5221,
+						["max"] = 12487,
+						["damage"] = 12487,
+					},
+					["Shattered Bleed"] = {
+						["min"] = 781,
+						["critical"] = 1,
+						["hit"] = 3,
+						["totalhits"] = 4,
+						["id"] = 159238,
+						["max"] = 3125,
+						["damage"] = 6249,
+					},
+					["Rake"] = {
+						["min"] = 5320,
+						["critical"] = 2,
+						["hit"] = 7,
+						["totalhits"] = 9,
+						["id"] = 1822,
+						["max"] = 11704,
+						["damage"] = 60122,
+					},
+					["Attack"] = {
+						["min"] = 2980,
+						["critical"] = 4,
+						["hit"] = 7,
+						["totalhits"] = 11,
+						["id"] = 6603,
+						["max"] = 6551,
+						["damage"] = 47469,
+					},
+				},
+				["maxhp"] = 275700,
+				["damagetaken"] = 4195,
+				["deathlog"] = {
+					{
+						["ts"] = 1470247478.874,
+						["amount"] = -756,
+						["hp"] = 275700,
+						["spellid"] = 88163,
+						["srcname"] = "Riverblade Raider",
+					}, -- [1]
+					{
+						["ts"] = 1470247484.214,
+						["amount"] = -635,
+						["hp"] = 275132,
+						["spellid"] = 88163,
+						["srcname"] = "Riverblade Raider",
+					}, -- [2]
+					{
+						["ts"] = 1470247486.754,
+						["amount"] = -750,
+						["hp"] = 274497,
+						["spellid"] = 88163,
+						["srcname"] = "Riverblade Raider",
+					}, -- [3]
+					{
+						["ts"] = 1470247492.294,
+						["amount"] = -667,
+						["hp"] = 273747,
+						["spellid"] = 88163,
+						["srcname"] = "Riverblade Raider",
+					}, -- [4]
+					{
+						["ts"] = 1470247495.174,
+						["amount"] = -697,
+						["hp"] = 273080,
+						["spellid"] = 88163,
+						["srcname"] = "Riverblade Raider",
+					}, -- [5]
+					{
+						["ts"] = 1470247497.134,
+						["amount"] = -690,
+						["hp"] = 272383,
+						["spellid"] = 88163,
+						["srcname"] = "Riverblade Raider",
+					}, -- [6]
+					["pos"] = 7,
+				},
+				["id"] = "Player-1315-07090571",
+				["overhealing"] = 0,
+				["damagetakenspells"] = {
+					["Attack"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["min"] = 635,
+						["absorbed"] = 0,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Attack",
+						["blocked"] = 0,
+						["totalhits"] = 6,
+						["resisted"] = 0,
+						["max"] = 756,
+						["damage"] = 4195,
+					},
+				},
+				["healingspells"] = {
+				},
+				["shielding"] = 0,
+				["name"] = "Kanpa",
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["multistrikes"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Anglers Expedition Defender"] = {
+				["players"] = {
+				},
+				["hdone"] = 4253,
+				["htakenspell"] = {
+					["Bloodthirst"] = {
+						["min"] = 114,
+						["crits"] = 0,
+						["max"] = 115,
+						["healing"] = 4253,
+						["overhealing"] = 0,
+						["hits"] = 37,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 4253,
+				["hdonespell"] = {
+					["Bloodthirst"] = {
+						["min"] = 114,
+						["crits"] = 0,
+						["max"] = 115,
+						["healing"] = 4253,
+						["overhealing"] = 0,
+						["hits"] = 37,
+					},
+				},
+			},
+			["Narjon the Gulper"] = {
+				["players"] = {
+					["Kanpa"] = {
+						["taken"] = 43901,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 43901,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Riverblade Raider"] = {
+				["players"] = {
+					["Kanpa"] = {
+						["taken"] = 82426,
+						["done"] = 4195,
+						["role"] = "NONE",
+						["class"] = "DRUID",
+					},
+				},
+				["hdone"] = 5634,
+				["htakenspell"] = {
+					["Bloodthirst"] = {
+						["min"] = 114,
+						["crits"] = 0,
+						["max"] = 115,
+						["healing"] = 5634,
+						["overhealing"] = 0,
+						["hits"] = 49,
+					},
+				},
+				["taken"] = 82426,
+				["done"] = 4195,
+				["htaken"] = 5634,
+				["hdonespell"] = {
+					["Bloodthirst"] = {
+						["min"] = 114,
+						["crits"] = 0,
+						["max"] = 115,
+						["healing"] = 5634,
+						["overhealing"] = 0,
+						["hits"] = 49,
+					},
+				},
+			},
+		},
+		["mobtaken"] = 126327,
+		["healing"] = 0,
+		["power"] = {
+			[4] = 6,
+		},
+		["multistrikes"] = 0,
+		["overhealing"] = 0,
+		["shielding"] = 0,
+		["name"] = "Total",
+		["starttime"] = 1470247320,
+		["damagetaken"] = 4195,
+		["mobhdone"] = 9887,
+		["last_action"] = 1470247320,
+		["mobdone"] = 4195,
+	},
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 16,
+			["interrupts"] = 0,
+			["endtime"] = 1470247499,
+			["damage"] = 58025,
+			["players"] = {
+				{
+					["last"] = 1470247499,
+					["healingabsorbed"] = 0,
+					["class"] = "DRUID",
+					["damaged"] = {
+						["Riverblade Raider"] = 58025,
+					},
+					["auras"] = {
+						["Shattered Bleed"] = {
+							["name"] = "Shattered Bleed",
+							["active"] = 0,
+							["id"] = 159238,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 1,
+						},
+						["Infected Wounds"] = {
+							["name"] = "Infected Wounds",
+							["active"] = 0,
+							["id"] = 58180,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 5,
+						},
+						["Rake"] = {
+							["name"] = "Rake",
+							["active"] = 0,
+							["id"] = 155722,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 5,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 15,
+					["interrupts"] = 0,
+					["damage"] = 58025,
+					["damagespells"] = {
+						["Shattered Bleed"] = {
+							["min"] = 3125,
+							["critical"] = 1,
+							["totalhits"] = 1,
+							["id"] = 159238,
+							["max"] = 3125,
+							["damage"] = 3125,
+						},
+						["Rake"] = {
+							["min"] = 5320,
+							["hit"] = 5,
+							["totalhits"] = 5,
+							["id"] = 1822,
+							["max"] = 5321,
+							["damage"] = 26604,
+						},
+						["Attack"] = {
+							["min"] = 3019,
+							["critical"] = 3,
+							["hit"] = 3,
+							["totalhits"] = 6,
+							["id"] = 6603,
+							["max"] = 6551,
+							["damage"] = 28296,
+						},
+					},
+					["power"] = {
+					},
+					["damagetaken"] = 3439,
+					["shielding"] = 0,
+					["id"] = "Player-1315-07090571",
+					["first"] = 1470247484,
+					["ccbreaks"] = 0,
+					["damagetakenspells"] = {
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["min"] = 635,
+							["absorbed"] = 0,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 5,
+							["resisted"] = 0,
+							["max"] = 750,
+							["damage"] = 3439,
+						},
+					},
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["name"] = "Kanpa",
+					["healing"] = 0,
+					["healed"] = {
+					},
+					["maxhp"] = 275700,
+					["dispells"] = 0,
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["Anglers Expedition Defender"] = {
+					["players"] = {
+					},
+					["hdone"] = 2758,
+					["htakenspell"] = {
+						["Bloodthirst"] = {
+							["min"] = 114,
+							["crits"] = 0,
+							["max"] = 115,
+							["healing"] = 2758,
+							["overhealing"] = 0,
+							["hits"] = 24,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 2758,
+					["hdonespell"] = {
+						["Bloodthirst"] = {
+							["min"] = 114,
+							["crits"] = 0,
+							["max"] = 115,
+							["healing"] = 2758,
+							["overhealing"] = 0,
+							["hits"] = 24,
+						},
+					},
+				},
+				["Riverblade Raider"] = {
+					["players"] = {
+						["Kanpa"] = {
+							["taken"] = 58025,
+							["done"] = 3439,
+							["role"] = "NONE",
+							["class"] = "DRUID",
+						},
+					},
+					["hdone"] = 4714,
+					["htakenspell"] = {
+						["Bloodthirst"] = {
+							["min"] = 114,
+							["crits"] = 0,
+							["max"] = 115,
+							["healing"] = 4714,
+							["overhealing"] = 0,
+							["hits"] = 41,
+						},
+					},
+					["taken"] = 58025,
+					["done"] = 3439,
+					["htaken"] = 4714,
+					["hdonespell"] = {
+						["Bloodthirst"] = {
+							["min"] = 114,
+							["crits"] = 0,
+							["max"] = 115,
+							["healing"] = 4714,
+							["overhealing"] = 0,
+							["hits"] = 41,
+						},
+					},
+				},
+			},
+			["mobtaken"] = 58025,
+			["starttime"] = 1470247483,
+			["healing"] = 0,
+			["power"] = {
+			},
+			["multistrikes"] = 0,
+			["overhealing"] = 0,
+			["shielding"] = 0,
+			["name"] = "Riverblade Raider",
+			["mobname"] = "Riverblade Raider",
+			["damagetaken"] = 3439,
+			["mobhdone"] = 7472,
+			["last_action"] = 1470247483,
+			["mobdone"] = 3439,
+		}, -- [1]
+	},
+}

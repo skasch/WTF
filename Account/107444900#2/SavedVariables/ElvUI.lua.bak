@@ -1,0 +1,180 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Cataha - Elune"] = "Cataha - Elune",
+	},
+	["gold"] = {
+		["Elune"] = {
+			["Cataha"] = 503,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["global"] = {
+		["unitframe"] = {
+			["buffwatchBackup"] = {
+				["DEATHKNIGHT"] = {
+					[49016] = {
+					},
+				},
+				["WARRIOR"] = {
+					[114030] = {
+					},
+					[3411] = {
+					},
+					[114029] = {
+					},
+				},
+				["SHAMAN"] = {
+					[61295] = {
+					},
+					[51945] = {
+					},
+					[974] = {
+					},
+				},
+				["MAGE"] = {
+					[111264] = {
+					},
+				},
+				["PRIEST"] = {
+					[47788] = {
+					},
+					[17] = {
+					},
+					[41635] = {
+					},
+					[33206] = {
+					},
+					[6788] = {
+					},
+					[139] = {
+					},
+					[10060] = {
+					},
+					[123258] = {
+					},
+				},
+				["PALADIN"] = {
+					[53563] = {
+					},
+					[1022] = {
+					},
+					[1038] = {
+					},
+					[156322] = {
+					},
+					[6940] = {
+					},
+					[114039] = {
+					},
+					[148039] = {
+					},
+					[1044] = {
+					},
+				},
+				["HUNTER"] = {
+				},
+				["PET"] = {
+					[19615] = {
+					},
+					[136] = {
+					},
+				},
+				["DRUID"] = {
+					[774] = {
+					},
+					[8936] = {
+					},
+					[48438] = {
+					},
+					[33763] = {
+					},
+				},
+				["MONK"] = {
+					[124081] = {
+					},
+					[119611] = {
+					},
+					[116849] = {
+					},
+					[132120] = {
+					},
+				},
+				["ROGUE"] = {
+					[57934] = {
+					},
+				},
+			},
+		},
+		["uiScale"] = "1.0",
+	},
+	["profiles"] = {
+		["Cataha - Elune"] = {
+			["layoutSet"] = "dpsCaster",
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,42",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,150",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,0,195",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-278,110",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,110",
+				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,278,110",
+			},
+			["general"] = {
+				["bordercolor"] = {
+					["b"] = 0.31,
+					["g"] = 0.31,
+					["r"] = 0.31,
+				},
+				["valuecolor"] = {
+					["b"] = 0.79,
+					["g"] = 0.51,
+					["r"] = 0.58,
+				},
+			},
+			["unitframe"] = {
+				["units"] = {
+					["player"] = {
+						["castbar"] = {
+							["insideInfoPanel"] = false,
+							["width"] = 406,
+							["height"] = 28,
+						},
+					},
+				},
+				["colors"] = {
+					["auraBarBuff"] = {
+						["b"] = 0.79,
+						["g"] = 0.51,
+						["r"] = 0.58,
+					},
+					["healthclass"] = true,
+					["castClassColor"] = true,
+				},
+			},
+			["actionbar"] = {
+				["backdropSpacingConverted"] = true,
+			},
+			["bossAuraFiltersConverted"] = true,
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Cataha - Elune"] = "Cataha - Elune",
+	},
+	["profiles"] = {
+		["Cataha - Elune"] = {
+			["theme"] = "class",
+			["install_complete"] = "9.20",
+		},
+	},
+}

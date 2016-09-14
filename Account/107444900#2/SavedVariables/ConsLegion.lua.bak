@@ -1,0 +1,75 @@
+
+ConsLegionSavedVar = {
+	["Kanpa-Elune"] = {
+		["Settings"] = {
+			["Textleft"] = 914.285714285714,
+			["Scale"] = 0.711111128330231,
+			["TextScale"] = 0.711111128330231,
+			["SkipCutScene"] = 1,
+			["Newsleft"] = 110.922981262207,
+			["Newsalpha"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 0,
+			["XPLock"] = 0,
+			["AutoHandin"] = 0,
+			["Textalpha"] = 1,
+			["Arrowy"] = -539.999938964844,
+			["XPScale"] = 0.711111128330231,
+			["NewsHide"] = 0,
+			["AutoPickup"] = 0,
+			["Newstop"] = -42,
+			["XPalpha"] = 1,
+			["NewsScale"] = 0.711111128330231,
+			["XPHide"] = 0,
+			["Arrowx"] = 960,
+			["XPleft"] = 139.999969482422,
+			["Lock"] = 0,
+			["AutoShare"] = 0,
+			["TextHide"] = 0,
+			["Texttop"] = -830.76913686899,
+			["TextLock"] = 0,
+			["alpha"] = 1,
+			["top"] = -539.999938964844,
+			["XPInvert"] = 0,
+			["NewsLock"] = 0,
+			["left"] = 384,
+			["TextInvert"] = 0,
+			["XPtop"] = -15.9998779296875,
+		},
+	},
+}
+ConsLegionSteps = {
+	["Kanpa-Elune"] = {
+	},
+}
+CL_NewsEpics = {
+	{
+		["Name"] = "Kanpa",
+		["Loot"] = "Elemental Rune",
+		["Link"] = "|cffff8000|Hitem:115510::::::::100:103::::::|h[Elemental Rune]|h|r",
+	}, -- [1]
+	{
+		["Name"] = "Kanpa",
+		["Loot"] = "Fractured Temporal Crystal",
+		["Link"] = "|cffa335ee|Hitem:115504::::::::100:103::::::|h[Fractured Temporal Crystal]|h|r",
+	}, -- [2]
+	{
+		["Name"] = "Kanpa",
+		["Loot"] = "Cache of Highmaul Treasures",
+		["Link"] = "|cffa335ee|Hitem:118531::::::::100:103::::::|h[Cache of Highmaul Treasures]|h|r",
+	}, -- [3]
+	{
+		["Name"] = "Kanpa",
+		["Loot"] = "Elemental Rune",
+		["Link"] = "|cffff8000|Hitem:115510::::::::100:103::::::|h[Elemental Rune]|h|r",
+	}, -- [4]
+	{
+		["Name"] = "Kanpa",
+		["Loot"] = "Choker of Violent Displacement",
+		["Link"] = "|cffa335ee|Hitem:113858::::::::100:103::6:1:567:::|h[Choker of Violent Displacement]|h|r",
+	}, -- [5]
+	["Nr"] = 5,
+}
+CL_Temp_Import = nil
+CL_AddonUpdate = {
+}
